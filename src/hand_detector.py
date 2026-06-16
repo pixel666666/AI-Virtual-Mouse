@@ -30,11 +30,11 @@ class HandDetector:
 
         if results.multi_hand_landmarks:
             for hand_landmarks in results.multi_hand_landmarks:
-                self.mp_draw.draw_landmarks(
-                    img,
-                    hand_landmarks,
-                    self.mp_hands.HAND_CONNECTIONS
-                )
+               # self.mp_draw.draw_landmarks(
+               #     img,
+               #     hand_landmarks,
+               #     self.mp_hands.HAND_CONNECTIONS
+               # )
 
                 h, w, c = img.shape
 
